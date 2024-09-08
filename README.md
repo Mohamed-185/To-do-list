@@ -20,7 +20,7 @@ The application uses a simple console interface where you can choose actions bas
 Each task is stored in a list and written to a file (`tasks.txt`) on disk to ensure data is not lost between program executions.
 
 
-🧑‍💻 Usage
+##🧑‍💻 Usage
 Add a Task: Enter the task's title and press enter. The task will be added to your list.
 View Tasks: Displays all tasks with their respective numbers. If a task is completed, it will be marked as -- COMPLETED.
 Mark Task as Completed: Enter the task number you wish to mark as completed.
@@ -28,19 +28,19 @@ Remove a Task: Enter the task number you wish to remove from the list.
 Exit: Exits the application, saving the tasks to tasks.txt.
 
    
-🗃️ Data Persistence
+##🗃️ Data Persistence
 All tasks are saved to a file called tasks.txt located in the project directory. When you run the application again, the tasks from the previous session will be loaded automatically.
 
-🛡️ Error Handling
+##🛡️ Error Handling
 Validates task numbers to prevent invalid selections.
 Handles scenarios where the task list is empty.
 Prevents adding empty or duplicate task titles.
 
-📖 Future Enhancements
+##📖 Future Enhancements
 Add priority levels for tasks.
 Allow editing tasks.
 Support for categories and deadlines.
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 Language: C#
 Platform: .NET Core
