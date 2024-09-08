@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\CSharpfundamentals.ConsoleApp\\CSharpfundamentals.ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\csharpfundamental.core\\CSharpfundamentals.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\csharpfundamental.core\\CSharpfundamentals.Core.csproj",
+        "projectName": "CSharpfundamentals.Core",
+        "projectPath": "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\csharpfundamental.core\\CSharpfundamentals.Core.csproj",
+        "packagesPath": "C:\\Users\\ABKAR\\.nuget\\packages\\",
+        "outputPath": "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\csharpfundamental.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABKAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\CSharpfundamentals.ConsoleApp\\CSharpfundamentals.ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\CSharpfundamentals.ConsoleApp\\CSharpfundamentals.ConsoleApp.csproj",
+        "projectName": "CSharpfundamentals.ConsoleApp",
+        "projectPath": "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\CSharpfundamentals.ConsoleApp\\CSharpfundamentals.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\ABKAR\\.nuget\\packages\\",
+        "outputPath": "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\CSharpfundamentals.ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABKAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\csharpfundamental.core\\CSharpfundamentals.Core.csproj": {
+                "projectPath": "M:\\ABKAR\\C++ Program\\CSharpfundamentals\\csharpfundamental.core\\CSharpfundamentals.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
